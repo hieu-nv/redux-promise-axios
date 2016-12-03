@@ -1,5 +1,17 @@
 # redux-promise-axios
 
+## Installation
+```bash
+npm install --save-dev axios
+npm install --save-dev redux-promise-axios
+```
+
+```javascript
+import REDUX_PROMISE_AXIOS from "redux-promise-axios";
+
+applyMiddleware(thunk, router, logger, promiseMiddleware(), REDUX_PROMISE_AXIOS);
+```
+
 ## Action Types
 ```javascript
 export const GET_USERS_WITH_ID = "GET_USERS_WITH_ID";
