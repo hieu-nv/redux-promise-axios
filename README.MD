@@ -3,13 +3,17 @@
 ## Installation
 ```bash
 npm install --save-dev axios
+npm install --save-dev redux-thunk
+npm install --save-dev redux-promise-middleware
 npm install --save-dev redux-promise-axios
 ```
 
 ```javascript
+import thunk from 'redux-thunk';
+import promiseMiddleware from "redux-promise-middleware";
 import REDUX_PROMISE_AXIOS from "redux-promise-axios";
 
-applyMiddleware(thunk, router, logger, promiseMiddleware(), REDUX_PROMISE_AXIOS);
+applyMiddleware(thunk, promiseMiddleware(), REDUX_PROMISE_AXIOS);
 ```
 
 ## Action Types
