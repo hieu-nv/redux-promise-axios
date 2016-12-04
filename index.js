@@ -3,7 +3,7 @@ import Axios from "axios";
 const [ GET, PUT, POST, DELETE ]  = ["GET", "PUT", "POST", "DELETE"];
 
 export default ({dispatch, getState}) => next => action => {
-  if (typeof action.payload === "object" && !action.payload.url) {
+  if (!!action.payload && typeof action.payload === "object" && !action.payload.url) {
     return next(action);
   }
   switch (action.type.substring(0, action.type.indexOf("_"))) {
