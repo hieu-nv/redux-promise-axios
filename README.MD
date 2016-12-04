@@ -1,4 +1,10 @@
 # redux-promise-axios
+[![npm](https://img.shields.io/npm/v/redux-promise-axios.svg?style=flat-square)](https://www.npmjs.com/package/redux-promise-axios)
+[![npm](https://img.shields.io/npm/dt/redux-promise-axios.svg?style=flat-square)](https://www.npmjs.com/package/redux-promise-axios)
+[![npm](https://img.shields.io/npm/dm/redux-promise-axios.svg?style=flat-square)](https://www.npmjs.com/package/redux-promise-axios)
+[![David](https://img.shields.io/david/hieunv8/redux-promise-axios.svg?style=flat-square)](https://www.npmjs.com/package/redux-promise-axios)
+[![David](https://img.shields.io/david/dev/hieunv8/redux-promise-axios.svg?style=flat-square)](https://www.npmjs.com/package/redux-promise-axios)
+[![npm](https://img.shields.io/npm/l/redux-promise-axios.svg?style=flat-square)](https://www.npmjs.com/package/redux-promise-axios)
 
 ## Installation
 ```bash
