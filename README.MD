@@ -28,7 +28,7 @@ export const REJECTED = "_REJECTED";
 ```javascript
 dispatch({
   type: GET_USERS_WITH_ID,
-  url: "https://api.github.com/users/hieunv8",
+  payload: "https://api.github.com/users/hieunv8",
 });
 ```
 

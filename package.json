@@ -1,11 +1,12 @@
 {
   "name": "redux-promise-axios",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "redux-promise-axios",
   "main": "dist/index.js",
   "scripts": {
     "clean": "rimraf dist/",
-    "dist": "npm run clean && babel ./ --out-dir ./dist --ignore node_modules"
+    "dist": "npm run clean && babel ./ --out-dir ./dist --ignore node_modules",
+    "pub": "npm run dist && npm publish"
   },
   "repository": {
     "type": "git",
