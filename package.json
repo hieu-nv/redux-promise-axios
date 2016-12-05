@@ -1,6 +1,6 @@
 {
   "name": "redux-promise-axios",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "redux-promise-axios",
   "main": "dist/index.js",
   "scripts": {
