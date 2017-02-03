@@ -9,17 +9,14 @@
     "dist": "npm run clean && babel ./src --out-dir ./dist --ignore node_modules",
     "pub": "npm run dist && npm publish"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://gitlab.com/hieunv/redux-promise-axios.git"
-  },
+  "repository": "https://github.com/hieunv8/redux-promise-axios.git",
   "keywords": [
     "redux",
     "promise",
     "axios",
     "ajax"
   ],
-  "homepage": "https://gitlab.com/hieunv/redux-promise-axios/blob/master/README.MD",
+  "homepage": "https://github.com/hieunv8/redux-promise-axios/blob/master/README.MD",
   "author": "HieuNV",
   "license": "MIT",
   "devDependencies": {
